@@ -1,1 +1,4 @@
-console.log('main.js loaded');
+$(document).ready(function() {
+  'usd strict';
+  console.log('main.js loaded');
+});
