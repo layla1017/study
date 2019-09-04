@@ -1,4 +1,9 @@
 $(document).ready(function() {
   'usd strict';
-  console.log('main.js loaded');
-});
+  paper.install(window);
+  paper.setup(document.getElementById('mainCanvas'));
+
+  var c = Shape.Circle(300, 200, 100);
+  c.fillColor = 'green';
+
+  });

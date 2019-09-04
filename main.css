@@ -1,1 +1,5 @@
-/*  일단 css를 만들어 뒀습니다. */
+#mainCanvas {
+  width: 500px;
+  height: 500px;
+  border: solid 1px black;
+}
